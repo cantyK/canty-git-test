@@ -14,8 +14,15 @@
     <title>Insert Title here</title>
 </head>
 <body>
+<%!String a;%>
+<%
+    a="hello java";
+    out.print(a);
+%>
+sadaasfasff
  <pre>
      Welcome to Spring MVC world！！
+     <%=(new java.util.Date()).toLocaleString()%>
  </pre>
 </body>
 </html>
